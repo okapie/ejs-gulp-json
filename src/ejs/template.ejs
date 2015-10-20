@@ -1,0 +1,18 @@
+<% var pageID = flag; -%>
+<%= pageID %>
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+ <title><%= jsonData.list[pageID].name %></title>
+ <meta charset="utf-8">
+</head>
+<body>
+<h1><%= jsonData.list[pageID].name %></h1>
+<% for(var i=0; i < jsonData.list[pageID].profile.length; i++) {%>
+<div style="padding:5px 20px;">
+ <h2><%= jsonData.list[pageID].profile[i].mail %></h2>
+ <div><%= jsonData.list[pageID].profile[i].message %></div>
+</div>
+<% } -%>
+</body>
+</html>

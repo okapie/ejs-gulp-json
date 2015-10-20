@@ -1,0 +1,22 @@
+{
+  "name": "ejs-gulp-json",
+  "version": "1.0.0",
+  "description": "To reading json file to bind ejs result in html.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okapie/ejs-gulp-json.git"
+  },
+  "keywords": [
+    "ejs"
+  ],
+  "author": "okapie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okapie/ejs-gulp-json/issues"
+  },
+  "homepage": "https://github.com/okapie/ejs-gulp-json#readme"
+}

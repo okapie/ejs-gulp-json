@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "id": "A001",
+      "name": "Jean",
+      "profile": [
+        {
+          "mail": "jean@test.com",
+          "message": "Hi, I'm Jean."
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "name": "Marie",
+      "profile": [
+        {
+          "mail": "marie@test.com",
+          "message": "Hi, I'm Marie."
+        }
+      ]
+    },
+    {
+      "id": "A003",
+      "name": "Paul",
+      "profile": [
+        {
+          "mail": "paul@test.com",
+          "message": "Hi, I'm Paul."
+        }
+      ]
+    }
+  ]
+}
